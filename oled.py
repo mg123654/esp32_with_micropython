@@ -1,7 +1,6 @@
 from machine import Pin, SoftI2C
 import ssd1306
 
-class
 # 创建i2c对象
 i2c = SoftI2C(scl=Pin(22), sda=Pin(21))
 
